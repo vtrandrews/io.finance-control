@@ -1,11 +1,10 @@
+import React from "react";
+import Home from "./pages/Home";
+
 export function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Here it all begins.
-        </p>
-      </header>
+      <Home />
     </div>
   );
 }
